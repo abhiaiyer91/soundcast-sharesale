@@ -1,0 +1,1 @@
+"use strict";angular.module("sharesaleApp",["ngRoute"]).config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}]),angular.module("sharesaleApp").controller("MainCtrl",["$scope",function(a){a.title="share sale soundcast test"}]);
